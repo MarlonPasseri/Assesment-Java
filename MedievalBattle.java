@@ -215,7 +215,7 @@ public class MedievalBattle {
 
         File tempDir = new File("temp");
         if (!tempDir.exists()) {
-            tempDir.mkdirs(); // Cria o diretório "temp" se ele não existir
+            tempDir.mkdirs();
         }
 
         try {
